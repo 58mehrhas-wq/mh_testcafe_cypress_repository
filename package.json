@@ -1,0 +1,30 @@
+{
+  "name": "mine_testcafe_cucumber",
+  "version": "1.0.0",
+  "description": "For TestCafe Only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sale_dresses": "cucumber-js --tags @sale_dresses"
+  },
+  "author": "Mehrdad Hassani",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-testcafe": "^1.17.4",
+    "@cucumber/cucumber": "^9.1.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "allure-commandline": "^2.22.0",
+    "assert": "^2.0.0",
+    "base64-img": "^1.0.4",
+    "chmod": "^0.2.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "mssql": "^9.1.1",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "node-base64-image": "^2.0.5",
+    "node-fetch": "^2.6.1",
+    "shelljs": "^0.8.5",
+    "testcafe": "^2.5.1-rc.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
